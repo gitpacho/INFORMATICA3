@@ -1,0 +1,34 @@
+Agosto 24 2022
+
+Se configura el entorno de desarrollo para python con las siguientes herramientas:
+
+* Instalar visual studio Code
+* Instalar python
+* Instalar git
+* Crear usuario gitHub
+
+
+Herramientas mediante las cuales crearemos nuestro primer repositorio,
+al que llamaremos CLASES
+
+
+El repositorio CLASES, contendrá el contenido de las clases impartidas
+durante todo el curso, estará compuesto por archivos con texto y practicas
+de código
+
+
+######### CONFIGURAR gitHub en Visual Studio Code ###################
+
+* Configurar usuario y contraseña en el terminal de la siguiente manera:
+    git config --global user.name "pepito"
+    git config --global user.email "pepito@unal.edu.co"
+    Además podemos verificar que git esté instalado con: git --version
+
+* Seleccionar la pestaña de git (los 3 nodos)
+* Inicializar repositorio (working directory), click al boton initialize_repository
+* Llevar el repositorio al stage area : seleccionar +.
+* Llevar el repositorio al commit area: escribimos mensaje y damos click en el boton commit
+* Finalmente subir el repositorio a la nube, seleccionando click en el icono de la nube
+
+
+# La proxima clase empezamos con python, sus bases y operaciones basicas

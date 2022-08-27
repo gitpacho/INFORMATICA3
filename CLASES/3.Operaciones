@@ -1,0 +1,23 @@
+26-06-2022
+
+BOOLEANOS: +, AND, OR
+
+ENTEROS Y FLOTANTES : 
+ +, suma
+ -, resta
+ *, multiplicacion
+ /, division
+ //, division entera,
+ %, residuo de una division 
+ ** potencia y raiz n-esima
+ >, mayor que
+ <, menor que
+ ==, igual que
+ >=, mayor o igual
+ <=, menor o igual
+ !=, diferente de
+
+
+STRINGS:
+ +, Concatenacion o union de STRINGS
+ string[indice], indexado
