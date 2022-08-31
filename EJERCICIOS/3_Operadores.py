@@ -6,6 +6,7 @@ c = 3
 
 ########### Operadores aritméticos:
 
+print("-------------Operadores aritméticos------------")
 print("suma            ==>", 1+2+3)
 print("mult y suma     ==>", 1*2+3)
 print("suma y mult     ==>", 1+2*3)
@@ -29,6 +30,7 @@ print("repiclacion   ==>", [0] * 10)
 
 ######### Operadores lógicos
 
+print("---------------Operadores lógicos---------------")
 print("and ==>", True and False) #Solo es verdadero si ambos son verdadero
 print("and ==>", False and True)
 print("or ==>", True or False)  #Solo es falso si ambos son falsos
@@ -52,7 +54,7 @@ print("Unal" and " ")
 
 ############## Operadores de comparación
 
-print("---Operadores de comparacion---")
+print("-------Operadores de comparacion----")
 print("mayor         ==> ", 1 > 2)
 print("menor         ==>", 19 < 0)
 print("menor o igual ==>", -1001 <= -1001)
@@ -68,6 +70,7 @@ print([20,2] > [20,1])
 ######## Operadores de pertenencia #########
 
 #Sirve para evaluar si un elemento está contenido en otro
+print("-----------Operadores de pertenencia-------------")
 print('"a" in  "holamundo"       ==>',  "a" in  "holamundo")
 print('"A" in "holamundo"        ==>',  "A" in "holamundo")
 print('"hola" in "holamundo"     ==>',  "hola" in "holamundo")
