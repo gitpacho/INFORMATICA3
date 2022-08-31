@@ -21,3 +21,24 @@ ENTEROS Y FLOTANTES :
 STRINGS:
  +, Concatenacion o union de STRINGS
  string[indice], indexado
+
+
+
+31-08-2022
+Tipos de operadores ==>
+
+ Operador de asignación: =
+ Operadores aritméticos: +, -, * /, //, %, **
+ Operadores lógicos: not, and, or
+ Operadores de comparación: >, <, >=, <=, !=, ==
+ Operadores de pertenencia: in, not in
+ Operadores de conjuntos: |, &, -
+
+
+ 
+
+
+
+
+
+
