@@ -52,9 +52,30 @@ print("Unal" and " ")
 
 ############## Operadores de comparación
 
+print("---Operadores de comparacion---")
+print("mayor         ==> ", 1 > 2)
+print("menor         ==>", 19 < 0)
+print("menor o igual ==>", -1001 <= -1001)
+print("igual         ==>", 3 == -5)
+print("mayor o igual ==>", 19 >= 20)
+print("diferente de  ==>", 30 != 31)
 
+print("cristian" > "elias")
+print(True > False)
+print(True > True)
+print([20,2] > [20,1])
 
+######## Operadores de pertenencia #########
 
+#Sirve para evaluar si un elemento está contenido en otro
+print('"a" in  "holamundo"       ==>',  "a" in  "holamundo")
+print('"A" in "holamundo"        ==>',  "A" in "holamundo")
+print('"hola" in "holamundo"     ==>',  "hola" in "holamundo")
+print('" " in "hola mundo"       ==>',  " " in "hola mundo")
+print('1 in [1,2,3]              ==>',  1 in [1,2,3])
+print('1 in ["1", "2", "3"]      ==>',  1 in ["1", "2", "3"])
+print('"3" not in "124567890"    ==>',  "3" not in "124567890" )
+print('"01" in "0 1 2 3 4 5 6 7" ==>',  "01" in "0 1 2 3 4 5 6 7")
 
 
 
