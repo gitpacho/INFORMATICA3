@@ -1,0 +1,17 @@
+#02-09-2022
+
+----------FUNCIONES INTEGRADAS DE PYTHON -------------
+
+
+Entrada y salida:  input(), print(), format()
+Ayuda:             help(), dir(), type()
+Matematicas:       abs(), round(), pow() .....
+Conversiones:      int(), float(), str(), complex() 
+                   bool(), set(), list(),  tuple()
+
+                   bin(), oct(), hex(), int()
+
+Secuencias:        range(), enumerate(), zip()
+
+Operaciones con secuencias: len(), sum(), max(), min(), sorted(), 
+                            map(), filter()
