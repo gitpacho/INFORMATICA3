@@ -1,0 +1,38 @@
+CREAR REPOSITORIO PRIVADO LLAMADO INFORMES.
+
+Crean la carpeta INFORME1.
+INFORME1 contendrá dos archivos (relatoria1.pdf y ejercicios1.pdf)
+
+
+explicación de relatoria1 y ejercicios1
+
+
+relatoria1.pdf  ==> formato pdf
+                    individual
+                    ¿qué temas? => hasta el tema ciclo while
+                    
+                    Resumen pequeñito
+                    Notas individuales con fechas,
+                    temas, explicacion suscinta de los temas,
+                    objetivos, ¿qué espero?
+                    comentarios, ejercicios que pueden resolver los temas
+                    ¿para qué sirve?
+                    Comparar qué puedo hacer y que no? con otros lenguajes
+                    Cursos extras, material extra, temas relacionados
+                    .. Todo lo que considere necesario
+
+
+ejercicios1.py ==> contendrá unos ejercicios basados en los ejercicios
+                   vistos en clase y los propuestos en el REPOSITORIO
+
+                   no se los he subido aún
+
+                   * Los ejercicios a resolver serán subidos al repositorio el dia miercoles 14 de septiembre a las 6:00 pm
+                   * Deben ser resueltos hasta antes del viernes 16 de Septiembre a las 6:00 pm
+
+
+Ambos archivos deben subirse a la nube antes del viernes 16 de septiembre 6:00 pm
+
+
+
+
