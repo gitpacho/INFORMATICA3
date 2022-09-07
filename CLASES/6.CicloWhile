@@ -23,8 +23,8 @@ while <condicion>:
 
 """ Crear un ciclo infinito """
 
-
-
+""" Crear un ciclo infinito, pero protegerlo en caso de que se ejecute más de 100 veces """
+""" C
 
 
 
