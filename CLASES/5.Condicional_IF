@@ -1,0 +1,43 @@
+07-09-2022
+
+---------- Condicional if --------------
+
+Permite ejecutar un conjunto de sentencias,
+en caso de que una condición sea verdadera.
+
+En caso de que la condición sea falsa, las sentencias
+contenidas son ignoradas
+
+
+----NOTACIÓN-----
+
+if <condición>:
+    <sentencia1>
+    <sentencia2>
+    <sentencia3>
+    .....
+
+"""Determine si un numero es mayor a 18, utilizando el condicional IF"""
+
+if <condicion>:
+    <sentencia1>
+    <sentencia2>
+    ....
+else:
+    <sentencias del else>
+
+"""Determine si un numero es mayor o no a 18, utilizando el condicional IF-ELSE"""
+
+if <condicion1>:
+    <sentencias1>
+elif <condicion2>:
+    <sentencias2>
+elif <condicion3>:
+    <sentencias3>
+else:
+    <sentencias else>
+
+
+"""Pedir a el usuario que ingrese 3 numeros,luego, retornar el numero mayor y el menor"""
+
+
