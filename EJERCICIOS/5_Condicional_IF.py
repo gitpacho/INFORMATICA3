@@ -20,8 +20,27 @@ else:
 
 """
 Pedir a el usuario que ingrese 3 numeros,
-luego, retornar el numero mayor y el menor
+luego, imprimir el numero mayor y el menor
 """
+
+numero1 = int(input("Ingrese primer numero: "))
+numero2 = int(input("Ingrese segundo numero: "))
+numero3 = int(input("Ingrese tercer numero: "))
+
+mayor = 0
+
+if (numero1 >= numero2) and (numero1 >= numero3):
+    mayor = numero1
+elif (numero2 >= numero1) and (numero2 >= numero3):
+    mayor = numero2
+elif (numero3 >= numero1) and (numero3 >= numero2):
+    mayor = numero3
+
+print("El numero mayor es {}".format(mayor))
+
+
+
+
 
 
 

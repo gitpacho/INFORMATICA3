@@ -38,6 +38,6 @@ else:
     <sentencias else>
 
 
-"""Pedir a el usuario que ingrese 3 numeros,luego, retornar el numero mayor y el menor"""
+"""Pedir a el usuario que ingrese 3 numeros,luego, imprimir el numero mayor y el menor"""
 
 
