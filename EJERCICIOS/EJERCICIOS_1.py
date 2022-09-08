@@ -1,6 +1,9 @@
 """
-En este archivo encontramos ejercicios para introducirnos en el lenguaje, 
-ejercicios introductorios para uso de variables y ejercicios con operadores.
+En este archivo encontramos ejercicios con los siguientes temas: 
+
+      * Ejercicios introductorios para uso de variables
+      * Operadores.
+
 """
 
 #====================== EJERCICIOS INTRODUCTORIOS ====================
