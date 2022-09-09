@@ -95,3 +95,16 @@ Programa que determine si un número n es primo
 """
 
 print("\n\nDETERMINE SI ES PRIMO")     
+
+n = 7
+factores = range(2, n)
+bandera = True
+
+for factor in factores:
+        if (n%factor)==0:
+            print(n, "No es primo", end='\n\n')
+            bandera = False
+            break
+
+if bandera == True:
+    print(n, "Si es primo", end='\n\n')
