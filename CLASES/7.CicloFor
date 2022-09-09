@@ -3,7 +3,7 @@
 ------------------------CICLO FOR --------------------------
 
 En algunas ocasiones, si sabemos lo que vamos a recorrer.
-El python, el ciclo for se utiliza para recorrer CUALQUIER iterable
+En python, el ciclo for se utiliza para recorrer CUALQUIER iterable
 
 -------- notacion -----------
 

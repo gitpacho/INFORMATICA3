@@ -1,3 +1,6 @@
+# 09-09-2022
+# EJERCICIOS BASICOS- CICLO FOR
+
 alturas = [10,20, 50, 80, 1, 50]
 pesos = (70, 60, 55, 62, 45, 90)
 mensaje = "Hola Mundo Cruel"
