@@ -1,0 +1,62 @@
+09-09-2022
+
+------------------------CICLO FOR --------------------------
+
+En algunas ocasiones, si sabemos lo que vamos a recorrer.
+El python, el ciclo for se utiliza para recorrer CUALQUIER iterable
+
+-------- notacion -----------
+
+for <variable> in <iterable>:
+    <sentencias1>
+    <sentencias2>
+
+
+<variable> : Es cualquier nombre que el programador decide usar para recorrer el ciclo for
+<iterable> : El cualquier elemento de Python que se puede recorrer o iterar
+                -Lista
+                -Tupla
+                -String
+                -Arreglo numpy
+
+------------------------------
+
+Ejemplo:
+
+Recorrer los siguientes iterables utilizando el ciclo for:
+    - alturas = [10,20, 50, 80, 1, 50]
+    - pesos = (70, 60, 55, 62, 45, 90)
+    - mensaje = "Hola Mundo Cruel"
+    - secuencia = range(1, 11, 1)
+
+print("iterable 1")
+for altura in alturas:
+    print(altura)
+print("iterable 2")
+for peso in pesos:
+    print(peso)
+print("iterable 3")
+for letra in mensaje:
+    print(letra)
+print("iterable 4")
+for i in secuencia:
+    print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
