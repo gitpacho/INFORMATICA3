@@ -1,0 +1,50 @@
+14-09-2022
+
+
+----------------------- ITERABLES Y MÉTODOS ---------------------------
+
+
+Es importante saber que todo elemento en python es un objeto.
+Y que cada objeto posee sus propios métodos métodos (funcionalidades). 
+
+Entre los objetos más comunes que se tienen están: strings, listas y diccionarios.
+Cada uno de ellos posee métodos propios para ejecutar alguna funcionalidad. Por ejemplo:
+
+cadena.count("A")             #Cuenta el número de veces que se repite el caracter "A" en la cadena
+lista.append(1)               #Agrega el entero 1 a la lista
+diccionario.get("cristian")   #Obtiene el elemento del diccionario cuya clave es "cristian"
+
+
+Veamos algunos de los métodos más importantes:
+
+-----strings---------
+formateo:      capitalize(), upper(), lower(), title()
+               center(spaces), strip()
+operaciones:   count(subcadena),
+               find(subcadena)
+               replace(old, new)
+verificacion:  isalnum(), isalpha(), isdigit, isdecimal, 
+Indexado:      [indice]
+Slicing:       [indice1:indice2:salto]
+
+------Listas---------
+operaciones: append(value), insert(index, value), 
+             pop(index), remove(value),
+             count(value)
+ordenado:    sort(), reverse()
+almacenamiento: clear(), copy()
+Indexado: [indice]
+Slicing:  [indice1:indice2:salto]
+
+
+-----Tuplas--
+Operaciones: index(value), count(value)
+Indexado: [indice]
+Slicing:  [indice1:indice2:salto]
+
+
+-----diccionarios--------
+Extraccion: items(), keys(), values(), get(key)
+Eliminar: pop(key)
+Almacenamiento: clear(), copy()
+Indexado: [key]

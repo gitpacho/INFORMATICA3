@@ -29,12 +29,8 @@ ejercicios1.py ==> contendrá unos ejercicios basados en los ejercicios
                    se resuelve individual. 
                    Anulo si hay copia,
 
-                   * Los ejercicios a resolver serán subidos al repositorio el dia miercoles 14 de septiembre a las 6:00 pm
-                   * Deben ser resueltos hasta antes del viernes 16 de Septiembre a las 6:00 pm
+                   * Los ejercicios a resolver serán subidos al repositorio el dia jueves 15 de septiembre a las 8:00 am
+                   * Deben ser resueltos hasta antes del sabado 17 de Septiembre a las 8:00 am
 
 
-Ambos archivos deben subirse a la nube antes del viernes 16 de septiembre 6:00 pm
-
-
-
-
+Ambos archivos deben subirse a la nube antes del sabado 17 de septiembre 8:00 am
