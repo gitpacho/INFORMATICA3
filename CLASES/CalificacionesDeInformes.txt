@@ -1,7 +1,7 @@
 CREAR REPOSITORIO PRIVADO LLAMADO INFORMES.
 
 Crean la carpeta INFORME1.
-INFORME1 contendrá dos archivos (relatoria1.pdf y ejercicios1.pdf)
+INFORME1 contendrá dos archivos (relatoria1.pdf y ejercicios1.py)
 
 
 explicación de relatoria1 y ejercicios1
