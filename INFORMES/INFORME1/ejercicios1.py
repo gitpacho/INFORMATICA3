@@ -54,8 +54,8 @@ cod      Nombre          Nota1   Nota2  Nota3  Nota4  Nota 5
 12    Mauricio Velazquez   5.0    4.2    2.1    5.0     ?
 13    Esteban Rodriguez    3.2    4.1    2.2    3.3     ?
 
-   Determine cuantos estudiantes pierden aúnque obtengan la mejor nota
-   Determine cuantos estudiantes ganan aunque obtengan la peor nota
+   Determine cuantos estudiantes pierden aúnque obtengan la mejor nota5
+   Determine cuantos estudiantes ganan aunque obtengan la peor nota5
    Determine cuantos estudiantes tienen posibilidades de pasar
 
    Almacene sus resultados en una lista llamada estudiantes, tal como se muestra:
@@ -87,7 +87,7 @@ ANGIE         Si        No        Si      No      No        |      Si        No 
 
 Almacene el resultado dentro de un diccionario llamado "diccionarioPagos"
 las claves deben ser los nombres de los estudiantes (en strings)
-y los valores deben ser el dinero que debe pagar cada uno (en flotantes)
+y los valores deben ser el dinero total que pagó cada uno al terminar la semana (en flotantes)
 """
 
 
