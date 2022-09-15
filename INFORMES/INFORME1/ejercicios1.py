@@ -4,6 +4,7 @@ Recomendaciones:
  - Recuerde almacenar las respuestas tal como se pide en cada ejercicio
  - Se resuelve de manera individual, la copia será anulada.
  - No hay necesidad de re-escribir las preguntas en su archivo
+ - Muestre sus procedimientos de manera clara
 """ 
 
 
@@ -65,11 +66,11 @@ cod      Nombre          Nota1   Nota2  Nota3  Nota4  Nota 5
 
 
 #------------------------ EJERCICIO 4 --------------------------------
-""" Cuatro compañeros, contratan un taxi con el objeto de movilizarse juntos a la universidad. 
+""" Seis compañeros, contratan un taxi con el objeto de movilizarse juntos a la universidad. 
 El contrato es de lunes a viernes, y deben pagar al taxista $15000 por cada trayecto. 
 Se prestarán dos servicios al día, uno de ida y el otro de regreso.
 
-Sin embargo, los cuatro no se movilizan juntos todos los dias. Por tanto, han planteado que la tarifa
+Sin embargo, los seis no se movilizan juntos todos los dias. Por tanto, han planteado que la tarifa
 debe dividirse entre el numero de compañeros que se movilicen en cada trayecto.En caso, de que ninguno
 utilice el servicio. Deben pagar al taxista una tarifa de $10000, repartidos equitativamente entre todos.
 A continueación veamos el uso del servicio por parte de los compañeros en la última semana de clases:
