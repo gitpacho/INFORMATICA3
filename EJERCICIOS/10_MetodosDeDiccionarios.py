@@ -138,7 +138,7 @@ CodEstudiante   Ingles Deportes Idiomas Cuantica Españos
  el codigo y la materia
 *Determine el promedio de cada estudiante             
 *Determine el promedio de cada una de las materias
-*Determine los 3 estudiantes con peor promedio
+*Determine los 3 estudiantes con peor
 
 
 
