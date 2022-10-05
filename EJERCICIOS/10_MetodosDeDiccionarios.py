@@ -29,17 +29,35 @@ diccionarioNumeros = {
 
 # ¿Cómo extraer un valos dada una clave
 """Extraer del diccionario estudiantes el valor de la clave Camilo Ibarra"""
-
 valor = diccionarioEstudiantes["Camilo Ibarra"]
 print(valor)
+"""Imprimir todos los valores de diccionarioEstudiantes"""
 
-
-
-
+for clave in ["Cristian Pachon","Maria Bermudez","Camilo Ibarra","Fernanda Gutierrez"]:
+    print(diccionarioEstudiantes[clave])
 
 # ¿Cómo eliminar un par clave-valor?
-# ¿Cómo cambiar un valor?
+"""Eliminar los elementos cuya clave empiece por la letra C en diccionarioEstudiantes"""
+
+for clave in ["Cristian Pachon","Maria Bermudez","Camilo Ibarra","Fernanda Gutierrez"]:
+    if clave[0] == "C":
+        diccionarioEstudiantes.pop(clave)
+print(diccionarioEstudiantes)
+
 # ¿Cómo agregar un par clave-valor?
+"""Agregar los siguientes estudiantes en el diccionarioEstudiantes
+- Juan Loaiza (3.2)
+- Sofia Ospina (5.0)
+- Miguel Pineda (3.1)
+"""
+
+diccionarioEstudiantes["Juan Loaiza"] = 3.2
+diccionarioEstudiantes["Sofia Ospina"] = 5.0
+diccionarioEstudiantes["Miguel Pineda"] = 3.1
+print(diccionarioEstudiantes)
+
+
+# ¿Cómo cambiar un valor?
 # ¿cómo extraer las claves de un diccionario?
 # ¿ Cómo extraer los valores de un diccionario
 # ¿ Como extraer los pares clave-valor?
