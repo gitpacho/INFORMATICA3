@@ -113,22 +113,61 @@ si es niño-adulto y si es Entre Semana-Fin de semana
 
 2) Crear la siguiente base de datos utilizando diccionarios
 
-cod-estudiante
+CodEstudiante   Ingles Deportes Idiomas Cuantica Españos
+    01           2.0     2.2     4.2       4.0    0.5
+    02           2.2     1.0     4.0       3.1    4.0
+    03           2.9     4.2     3.1       0.0    3.1
+    04           2.0     4.0     4.0       0.2    0.0
+    05           2.2     0.2     0.2       1.0    0.2
+    06           2.0     5.0     1.0       1.3    1.0
+    07           5.0     1.2     1.2       1.9    1.3
+    08           0.2     2.9     1.0       4.2    1.9
+    09           5.0     2.3     2.9       2.9    0.2
+    10           4.2     5.0     4.2       4.2    3.9
+    11           4.5     4.2     4.0       0.5    4.2
+    12           4.2     4.5     4.2       0.0    0.5
+    13           0.5     0.5     2.3       4.2    0.0
+    14           4.1     3.1     2.5       4.3    3.2
+    15           4.2     4.2     4.2       2.5    4.3
+    16           4.1     0.0     4.5       4.2    2.5
+    17           1.2     3.1     0.5       4.5    3.2
+    18           0.5     0.2     4.1       4.1    4.5
+    19           2.2     0.5     0.2       0.2    4.1
 
-01
-02
-01
-02
-01
-02
-01
-02
-01
-02
-01
-02
-01
-02
+*Cómo acceder a la base de datos utilizando como clave
+ el codigo y la materia
+*Determine el promedio de cada estudiante             
+*Determine el promedio de cada una de las materias
+*Determine los 3 estudiantes con peor promedio
+
+
+
+0.5
+4.0
+3.1
+0.0
+0.2
+1.0
+1.3
+1.9
+0.2
+3.9
+4.2
+0.5
+0.0
+3.2
+4.3
+2.5
+3.2
+4.5
+4.1
+3.2
+
+
+
+
+
+
 
 
 """
