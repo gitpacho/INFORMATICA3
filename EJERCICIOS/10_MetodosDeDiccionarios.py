@@ -90,12 +90,20 @@ print(parejas)
 """
 IMPRIMIR TODAS LAS PAREJAS CLAVE-VALOR DE diccionarioEstudiantes
 DE 2 MANERAS (utilice ciclo for)
+
+ejemplo => Maria Bermudez-5.0 
+           Fernanda Gutierrez-5.0
+           .....
+           .....
 """
 
 
+"""EJERCICIOS CLASE
 
 
 
 
+
+"""
 
 
