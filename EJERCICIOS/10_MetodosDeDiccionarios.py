@@ -98,10 +98,37 @@ ejemplo => Maria Bermudez-5.0
 """
 
 
-"""EJERCICIOS CLASE
+"""
+EJERCICIOS CLASE
 
+1) Crear la siguiente base de datos utilizando diccionarios
+Costo de entrada al cine 
 
+                   Niños       Adultos
+Entre semana        5000         7000
+Fin de semana       8000         1000
 
+* ¿Cómo acceder al precio de la entrada utilizando como claves
+si es niño-adulto y si es Entre Semana-Fin de semana
+
+2) Crear la siguiente base de datos utilizando diccionarios
+
+cod-estudiante
+
+01
+02
+01
+02
+01
+02
+01
+02
+01
+02
+01
+02
+01
+02
 
 
 """
