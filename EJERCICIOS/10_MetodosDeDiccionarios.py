@@ -58,7 +58,23 @@ print(diccionarioEstudiantes)
 
 
 # ¿Cómo cambiar un valor?
+"""Cambiar la calificacion de diccionarioEstudiantes así:
+    -Mujeres: 5.0
+    -Hombres: 0.0
+"""
+
+for clave in diccionarioEstudiantes:
+    if clave.split()[0][-1] == "a":
+        diccionarioEstudiantes[clave] = 5.0
+    else:
+        diccionarioEstudiantes[clave] = 0.0
+print(diccionarioEstudiantes)
+
+
+
 # ¿cómo extraer las claves de un diccionario?
+
+
 # ¿ Cómo extraer los valores de un diccionario
 # ¿ Como extraer los pares clave-valor?
 
