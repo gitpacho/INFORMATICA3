@@ -71,12 +71,27 @@ for clave in diccionarioEstudiantes:
 print(diccionarioEstudiantes)
 
 
+# ¿cómo extraer todas las claves de un diccionario?
 
-# ¿cómo extraer las claves de un diccionario?
+claves = diccionarioEstudiantes.keys()
+print(claves)
+
+# ¿ Cómo extraer todos los valores de un diccionario
+
+valores = diccionarioEstudiantes.values()
+print(valores)
 
 
-# ¿ Cómo extraer los valores de un diccionario
 # ¿ Como extraer los pares clave-valor?
+parejas = diccionarioEstudiantes.items()
+print(parejas)
+
+
+"""
+IMPRIMIR TODAS LAS PAREJAS CLAVE-VALOR DE diccionarioEstudiantes
+DE 2 MANERAS (utilice ciclo for)
+"""
+
 
 
 
