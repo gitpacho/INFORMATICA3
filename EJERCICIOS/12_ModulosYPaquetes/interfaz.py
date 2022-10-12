@@ -11,3 +11,7 @@ def imprimirMensaje(nombre):
 def imprimirSeparador(tipo):
     print("\n" + tipo * 50 + "\n")
 
+def imprimirVariable(nombre, variable):
+    print(nombre + " ==> " + str(variable))
+
+
