@@ -1,0 +1,28 @@
+#12-10-2022
+
+
+#---------MODULOS Y PAQUETES EN PYTHON---------
+
+Para facilitar la programacion modular, el desarrollo de un programa
+requiere organizar las funciones en diferentes archivos (modulos)
+
+Esto permite organizar un programa, conforme a las necesidades, por ejemplo,
+si se requiere hacer un modulo para la interfaz, otro modulo para la lógica y 
+otro para el almacenamiento de datos. Puedo crear 3 modulos (archivos)
+en los cuales organizo mis funciones
+
+
+Ejemplo: ¿cómo crear mi primer módulo?
+
+* simplemente se crea un archivo y se le asigna un nombre,
+este nombre es el nombre del modulo,
+allí unicamente colocan funciones o variables de interes
+
+
+Ejemplo: Crear dos modulos, uno llamado interfaz.py y otro llamado logica.py
+         Luego un archivo principal main.py donde pueda ejecutar las funciones
+         de los modulos anteriores
+
+
+
+
