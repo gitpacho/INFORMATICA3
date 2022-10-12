@@ -14,4 +14,6 @@ def imprimirSeparador(tipo):
 def imprimirVariable(nombre, variable):
     print(nombre + " ==> " + str(variable))
 
-
+def imprimirListado(lista):
+    for elemento in lista:
+        print(elemento)
