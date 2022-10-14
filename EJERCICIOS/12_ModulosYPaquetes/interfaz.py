@@ -16,4 +16,5 @@ def imprimirVariable(nombre, variable):
 
 def imprimirListado(lista):
     for elemento in lista:
+        imprimirSeparador("-")
         print(elemento)

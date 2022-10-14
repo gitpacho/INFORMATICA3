@@ -42,4 +42,4 @@ f4 = fechas.fechaImportante4
 f5 = fechas.fechaImportante5
 f6 = fechas.fechaImportante6
 listaFechasImportantes = [f1, f2, f3, f4, f5, f6]
-
+interfaz.imprimirListado(listaFechasImportantes)
