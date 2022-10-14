@@ -1,4 +1,4 @@
-nombre_compleo = ""   #Por favor ingrese su nombre COMPLETO en la cadena
+nombre_completo = ""   #Por favor ingrese su nombre COMPLETO en la cadena
 
 # ----------------------------Ejercicios INFORME 2--------------------------------
 """
