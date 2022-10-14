@@ -88,7 +88,7 @@ calificaciones = {
                       "040": {"Nombre": "Aureliano Buendia",    "Fisica":  1.0,   "Ingles": 3.1,   "Deportes": 4.0,   "Artes": 4.0,  "Musica": 2.2},
                 }
 
-    Utilice diccionario estudiantes, para determinar:
+    Utilice el diccionario calificaciones, para determinar:
 
     a) El promedio obtenido por cada estudiante, almacene la respuesta en un diccionario llamado promediosPorEstudiante, cuyas claves son los nombres de los estudiantes y los valores sus respectivos promedios (flotantes de 2 decimales)
     b) El promedio obtenido por cada materia, almacene la respuesta en un diccionario llamado promediosPorMateria, cuyas claves son los nombres de las materias y los valores sus respectivos promedios
@@ -107,7 +107,7 @@ calificaciones = {
  precio (Lunes a viernes)     $5000          $8000              $8000         $12000
  precio (Sabado, domingo)     $7000          $9000              $9000         $15000
 
-Cada una de las ventas de boletas en una semana, se registraron de la siguiente manera:
+Las ventas de boletas en el intervalo de una semana, se registraron de la siguiente manera:
 
 [
    ("2D_3NIÑOS_LUNES", "2D_1ADULTOS_LUNES"),("2D_0NIÑOS_LUNES", "2D_2ADULTOS_LUNES"),("2D_0NIÑOS_LUNES", "2D_2ADULTOS_LUNES"),("3D_0NIÑOS_LUNES", "3D_1ADULTOS_LUNES"),("2D_2NIÑOS_LUNES", "2D_1ADULTOS_LUNES"),("2D_0NIÑOS_LUNES", "2D_2ADULTOS_LUNES"),("2D_0NIÑOS_LUNES", "2D_2ADULTOS_LUNES"),("3D_0NIÑOS_LUNES", "3D_3ADULTOS_LUNES"),("3D_3NIÑOS_LUNES", "3D_4ADULTOS_LUNES"),("2D_2NIÑOS_LUNES", "2D_4ADULTOS_LUNES"),("2D_1NIÑOS_MARTES",
