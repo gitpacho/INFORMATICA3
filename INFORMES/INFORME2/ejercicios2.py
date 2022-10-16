@@ -91,7 +91,7 @@ calificaciones = {
     Utilice el diccionario calificaciones, para determinar:
 
     a) El promedio obtenido por cada estudiante, almacene la respuesta en un diccionario llamado promediosPorEstudiante, cuyas claves son los nombres de los estudiantes y los valores sus respectivos promedios (flotantes de 2 decimales)
-    b) El promedio obtenido por cada materia, almacene la respuesta en un diccionario llamado promediosPorMateria, cuyas claves son los nombres de las materias y los valores sus respectivos promedios
+    b) El promedio obtenido por cada materia, almacene la respuesta en un diccionario llamado promediosPorMateria, cuyas claves son los nombres de las materias y los valores sus respectivos promedios (flotantes de 2 decimales)
     c) Estudiantes con promedio mayor o igual a 3, almacene la respuesta en una lista llamada estudiantesAprobados, que contenga los nombres de los estudiantes que aprueban
     d) Estudiantes con promedio menor a 3, almacene la respuesta en una lista llamada estudiantesReprobados, que contenga los nombres de los estudiantes que reprueban
 
