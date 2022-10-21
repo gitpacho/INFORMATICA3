@@ -40,8 +40,6 @@ if __name__ == "__main__":
     tablero = generarTableroLogico()
     ganador = determinarGanador(tablero)
     print("===>", ganador)
-
-
     tableroNuevo = insertarCaracterEnTablero(tablero, 0, "o")
     tableroNuevo = insertarCaracterEnTablero(tablero, 1, "o")
     tableroNuevo = insertarCaracterEnTablero(tablero, 2, "o")
