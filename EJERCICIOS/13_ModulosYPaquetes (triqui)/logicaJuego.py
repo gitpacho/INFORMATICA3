@@ -30,10 +30,40 @@ def determinarGanador(tableroLogico:list):
                            (2,4,6)]
     ganador = None
     for pos1, pos2, pos3 in posicionesAComparar:
-        if tableroLogico[pos1] == tableroLogico[pos2] == tableroLogico[pos3]:
+        if (tableroLogico[pos1] == tableroLogico[pos2] == tableroLogico[pos3]) and (tableroLogico[pos1] != None):
             ganador = tableroLogico[pos1]
             break
     return ganador
+
+
+if __name__ == "__main__":
+    tablero = generarTableroLogico()
+    print(tablero)
+    
+    #insertarCaracterEnTablero()
+    #determinarGanador()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
