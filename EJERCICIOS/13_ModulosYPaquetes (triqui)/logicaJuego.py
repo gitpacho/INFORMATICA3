@@ -14,3 +14,7 @@ Este modulo contiene 3 funciones:
 def generarTableroLogico():
     tableroLogico = [None,None,None,None,None,None,None,None,None]
     return tableroLogico
+
+def insertarCaracterEnTablero(tableroLogico, posicion, caracter):
+    tableroLogico[posicion] = caracter
+    return tableroLogico
