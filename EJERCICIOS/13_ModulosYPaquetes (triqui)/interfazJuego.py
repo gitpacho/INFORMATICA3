@@ -46,8 +46,7 @@ def imprimirTablero(tableroLogico:list):
 
 
 
-
-    
-
-
-
+if __name__ == "__main__":
+    explicarJuego()
+    tableroLogico = [None] * 9
+    imprimirTablero(tableroLogico)
