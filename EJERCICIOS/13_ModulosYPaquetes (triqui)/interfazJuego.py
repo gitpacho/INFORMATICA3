@@ -6,8 +6,9 @@ triqui. Este modulo contiene 2 funciones:
 * imprimirTablero: retornar string con el tablero
 """
 
+
 def explicarJuego():
-    explicacion  = """
+    explicacion = """
     ============================================
     Bienvenido, esto es triki.
 
@@ -30,22 +31,22 @@ def explicarJuego():
     """
     print(explicacion)
 
-def imprimirTablero(tableroLogico:list):
+
+def imprimirTablero(tableroLogico: list):
     tableroVisual = """
                      {} | {} | {}  
                    -------------
                      {} | {} | {}  
                    -------------
                      {} | {} | {}  """.format(tableroLogico[0],
-                     tableroLogico[1], tableroLogico[2], tableroLogico[3],
-                     tableroLogico[4], tableroLogico[5], tableroLogico[6],
-                     tableroLogico[7], tableroLogico[8])
+                                              tableroLogico[1], tableroLogico[2], tableroLogico[3],
+                                              tableroLogico[4], tableroLogico[5], tableroLogico[6],
+                                              tableroLogico[7], tableroLogico[8])
     tableroVisual = tableroVisual.replace("None", " ")
     print(tableroVisual)
 
 
-
 if __name__ == "__main__":
     explicarJuego()
-    tableroLogico = ["x", None, None,None ,None ,"x",None ,None ,"o"]
+    tableroLogico = ["x", None, None, None, None, "x", None, None, "o"]
     imprimirTablero(tableroLogico)

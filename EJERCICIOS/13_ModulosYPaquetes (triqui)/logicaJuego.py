@@ -35,7 +35,6 @@ def determinarGanador(tableroLogico:list):
             break
     return ganador
 
-
 if __name__ == "__main__":
     tablero = generarTableroLogico()
     ganador = determinarGanador(tablero)
