@@ -36,6 +36,11 @@ for i in range(10):
 
 import tqdm
 
-for i in tqdm.tqdm(range(200000000)):
+"""
+Ejecutar un for con una barra de progreso
+"""
+for i in tqdm.tqdm(range(10000000)):
     10 * 5
 print("proceso Terminado")
+
+
