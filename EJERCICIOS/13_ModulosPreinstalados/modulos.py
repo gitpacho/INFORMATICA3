@@ -29,3 +29,7 @@ for i in range(10):
     print(numeroAleatorio)
 
 
+print("caracter aleatorio a,b,c")
+for i in range(10):
+    caracterAleatorio = random.choice(["a", "b", "c"])
+    print(caracterAleatorio)
