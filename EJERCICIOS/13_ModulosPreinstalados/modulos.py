@@ -39,8 +39,34 @@ import tqdm
 """
 Ejecutar un for con una barra de progreso
 """
-for i in tqdm.tqdm(range(10000000)):
+#revisar tqdm.trange()
+for i in tqdm.tqdm(range(1000000)):
     10 * 5
 print("proceso Terminado")
 
+
+import calendar
+
+"""
+Imprimir un calendario
+"""
+
+print(calendar.calendar(2022))
+
+
+import numpy  #pip install numpy
+import matplotlib.pyplot as plt #pip install matplotlib
+
+"""
+Utilizar la estructura basica de numpy: un arreglo
+luego graficar usando matplotlib la funcion x**2 + 1
+"""
+
+arreglo1 = numpy.array([1,2,3,4,5])
+arreglo2 = numpy.linspace(1, 50, 100)
+arreglo3 = arreglo2 ** 2
+
+plt.figure()
+plt.plot(arreglo2, arreglo3)
+plt.show()
 
