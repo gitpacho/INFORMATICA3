@@ -9,6 +9,9 @@ Este modulo contiene 3 funciones:
                          retorna un lista actualizada
 * determinarGanador => recibe una lista (tablero)
                        retorna ganador ("x", "o", None)
+
+* validarPosicion  => recibe una lista (tablero) y posicion
+                      retorna True o False
 """
 
 def generarTableroLogico():
