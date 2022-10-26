@@ -15,8 +15,8 @@ def generarTableroLogico():
     tableroLogico = [None,None,None,None,None,None,None,None,None]
     return tableroLogico
 
-def insertarCaracterEnTablero(tableroLogico:list, posicion:int, caracter:str):
-    tableroLogico[posicion] = caracter
+def insertarCaracterEnTablero(tableroLogico:list, posicion:int, turno:str):
+    tableroLogico[posicion] = turno
     return tableroLogico
 
 def determinarGanador(tableroLogico:list):

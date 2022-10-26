@@ -8,4 +8,8 @@ interfazJuego.explicarJuego()
 tableroJuego = logicaJuego.generarTableroLogico()
 
 for turno in ["x", "o", "x", "o", "x", "o", "x", "o", "x"]:
-    print(turno)
+    print("Turno judador: ", turno)
+    posicion = int(input("   Ingrese posicion de juego: "))
+    logicaJuego.insertarCaracterEnTablero(tableroJuego, posicion, turno)
+    
+    
