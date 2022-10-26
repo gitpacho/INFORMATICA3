@@ -35,6 +35,12 @@ def determinarGanador(tableroLogico:list):
             break
     return ganador
 
+def validarPosicion(tableroLogico:list, posicion:int):
+    if tableroLogico[posicion] == None:
+        return True
+    else:
+        return False
+
 if __name__ == "__main__":
     tablero = generarTableroLogico()
     print(tablero)
