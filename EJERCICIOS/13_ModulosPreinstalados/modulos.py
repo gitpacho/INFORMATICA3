@@ -17,5 +17,8 @@ imprimir 10 numeros aleatorios. opciones: flotante del 0 al 1
 imprimir un numero aleatorio. opciones: 1,2,3,4,5
 imprimir un caracter aleatorio. opciones: "a", "b", "c"
 """
-numeroAleatorio = random.random()
-print(numeroAleatorio)
+print("numero aleatorio [0,1)")
+for i in range(10):
+    numeroAleatorio = random.random()
+    print(numeroAleatorio)
+
