@@ -70,3 +70,4 @@ plt.figure()
 plt.plot(arreglo2, arreglo3)
 plt.show()
 
+
