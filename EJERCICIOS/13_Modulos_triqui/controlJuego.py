@@ -10,7 +10,10 @@ input(".....Ingrese enter para continuar....")
 tableroJuego = logicaJuego.generarTableroLogico()
 for turno in ["x", "o", "x", "o", "x", "o", "x", "o", "x"]:
     print("\nTurno judador: ", turno)
-    posicion = int(input("   Ingrese posicion de juego: "))
+    while True:
+        posicion = int(input("   Ingrese posicion de juego: "))
+        validez = logicaJuego.validarPosicion
+        if validez == True: break
     tablero = logicaJuego.insertarCaracterEnTablero(tableroJuego, posicion, turno)
     interfazJuego.imprimirTablero(tablero)
     posibleGanador = logicaJuego.determinarGanador(tablero)
