@@ -21,5 +21,3 @@ for turno in ["x", "o", "x", "o", "x", "o", "x", "o", "x"]:
     if posibleGanador in ["x", "o"]: 
         print("Felicidades {} acaba de ganar juego".format(posibleGanador))
         break
-
-    
