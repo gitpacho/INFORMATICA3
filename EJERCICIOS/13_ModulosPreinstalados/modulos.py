@@ -28,8 +28,14 @@ for i in range(10):
     numeroAleatorio = random.choice([1,2,3,4,5])
     print(numeroAleatorio)
 
-
 print("caracter aleatorio a,b,c")
 for i in range(10):
     caracterAleatorio = random.choice(["a", "b", "c"])
     print(caracterAleatorio)
+
+
+import tqdm
+
+for i in tqdm.tqdm(range(200000000)):
+    10 * 5
+print("proceso Terminado")
