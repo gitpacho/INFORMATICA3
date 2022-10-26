@@ -27,6 +27,7 @@ Ejemplo: Crear dos modulos, uno llamado interfaz.py y otro llamado logica.py
 
 #26-10-2022
 
+
 -------------MODULOS INTEGRADOS DE PYTHON------------
 
 Los modulos que acabamos de ver son modulos creados
@@ -34,38 +35,21 @@ por el mismo programador.Sin embargo, existen infinidad
 de modulos pre-instalados que podemos utilizar 
 ahorrando gran cantidad de trabajo
 
-
 Ejemplos de modulos utiles:
 
-* random: generar numeros aleatorios, 
-          con sus respectivas distribuciones estadisticas
-* math: provee funciones matematicas utiles
-        y constantes numericas, pi, euler
-* tqdm: herramienta para que el programador 
-        evalue el tiempo de ejecucion de un programa
-* pandas: libreria para hacer hojas de calculo
-          semejantes a excel y estructuras sql
-* skitlearn: libreria para hacer machine learning
-* matplotlib: libreria para graficar datos, basado en matlab
-* numpy: libreria para utilizar estructuras de datos potentes        
-* os: libreria para acceder al terminal desde python
-* sys: libreria para saber donde estan contenidas todas
-       las funciones, paquetes, integrados de python
-
--
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* random:     Generador de numeros aleatorios, 
+              con sus respectivas distribuciones estadisticas
+* math:       Provee funciones matematicas utiles
+              y constantes numericas, pi, euler
+* tqdm:       Herramienta para que el programador 
+              estime el tiempo de ejecucion de un programa
+* pandas:     Permite hacer hojas de calculo faciles de manipular
+              semejantes a excel y estructuras sql
+* skitlearn:  Funciones y herramientas útiles hacer machine learning
+* matplotlib: Generador de distintos tipos de graficas, basado en matlab
+* numpy:      Provee estructuras de datos potentes
+* os:         Para realizar operaciones en el terminal desde python
+* sys:        Organiza la ubicacion de las herramientas, modulos
+              funciones, o paquetes de python
 
 
