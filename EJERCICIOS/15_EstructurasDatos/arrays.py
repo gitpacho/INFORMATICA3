@@ -122,15 +122,28 @@ matrizLarga = [1 1 1
                1 2 3
                4 5 6
                7 8 9]
+"""
 
+matrizAncha = np.hstack((matriz1, matriz2))
+matrizLarga = np.vstack((matriz1, matriz2))
+print(matrizAncha)
+print(matrizLarga)
 
 
 """
+como apilar un vector con una matriz de forma 
+horizontal y vertical
+"""
+vectorNuevo = np.array([1,2,3])
+matrizNueva = np.arange(1,10).reshape((3,3))
+print("=>\n", vectorNuevo)
+print("=>\n", matrizNueva)
 
+matrizNueva1 = np.vstack((matrizNueva, vectorNuevo))
+print(matrizNueva1)
 
-
-
-
+matrizNueva1 = np.hstack((matrizNueva, vectorNuevo.reshape((3,1))))
+print(matrizNueva1)
 
 
 
