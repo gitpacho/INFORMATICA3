@@ -79,8 +79,8 @@ tensor2 = np.arange(1,19).reshape((2,3,3))
 """
 ejemplos: a) como apilar vector1 y vector2 y formar vector mas grande
           b) como apilar vector1 y vector2 y formar una matriz
-          c) como apilar matriz1 y matriz1 y formar matriz mas grande
-          d) como apilar matriz1 y matriz1 y formar un tensor
+          c) como apilar matriz1 y matriz2 y formar matriz mas ancha
+          d) como apilar matriz1 y matriz1 y formar matriz más larga
 """
 
 """
@@ -102,9 +102,30 @@ matrizResultante = np.vstack((vector1, vector2))
 print(matrizResultante)
 
 
+"""
+matriz1 = [1 1 1
+           1 1 1
+           1 1 1]
+matriz2 = [1 2 3
+           4 5 6
+           7 8 9]
+
+* Apilarlas horizontalmente
+matrizAncha  = [1 1 1 1 2 3
+                1 1 1 4 5 6
+                1 1 1 7 8 9]
+
+* Apilarlas verticalmente
+matrizLarga = [1 1 1 
+               1 1 1 
+               1 1 1 
+               1 2 3
+               4 5 6
+               7 8 9]
 
 
 
+"""
 
 
 
