@@ -1,0 +1,32 @@
+#28-10-2022
+
+--------Estructuras para analizar datos ------
+
+
+Las estructuras conocidas por python son:
+-Listas
+-Tuplas, 
+-Diccionarios
+-Conjuntos
+
+Pero estas no son eficientes para analizar o almacenar
+datos, por lo tanto existen otras estructuras en numpy y pandas
+
+numpy:| arrays => vectores (arrays 1D)
+      |           matrices (arrays 2D)
+      |           tensores (arrays 3D)
+
+
+pandas:| series => vectores (solo 1D)
+       |           funcionan como las listas y diccionarios para indexar
+       |
+       | dataFrames => matrices(solo 2D)
+       |               funcionan como las hojas de excel
+       |               funcionan como las listas y diccionarios para indexar
+
+
+
+La estructura básica para trabajar estas estructuras (arrays, series y dataFrames)
+son los mismos arrays, por lo tanto deben entenderse muy bien para poder trabajar
+las demas estructuras (series y dataframes)
+
