@@ -61,4 +61,20 @@ tensor2= np.array([ [[1,  2,  3],
                  ])
 
 
+"""
+ejemplos: como crear los anteriores elementos de manera rapida
+"""
 
+vector1 = np.arange(1,7,1) #inicio,fin,salto
+vector2 = np.arange(10, 51, 10)
+
+matriz1 = np.ones((3,3))   #tamaño (filas,columnas)
+matriz2 = np.arange(1, 10).reshape((3,3))  #reshape (filas, columnas)
+
+tensor1 = 
+tensor2 = 
+print(matriz2)
+
+
+
+#reshape
