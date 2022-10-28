@@ -25,8 +25,15 @@ tensor2= [[1  2  3
           [10 11 12
            13 14 15
            16 17 18]] 
-
-
-
-
 """
+import numpy as np
+
+#Como crear los vectores numpy
+vector1 = np.array([1,2,3,4,5,6,100])
+vector2 = np.array([10,20,30,40,50])
+
+#como crear matrices numpy
+matriz1 = np.array([[1, 1, 1],
+                    [1, 1, 1],
+                    [1, 1, 1]])
+
