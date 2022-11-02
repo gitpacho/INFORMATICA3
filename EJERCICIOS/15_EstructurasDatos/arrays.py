@@ -295,7 +295,7 @@ print(matriz2.max())       #total
 Ejemplo:  
 Determine la media de productos vendidos por trabajador
 Determine la media por cada producto
-Determine el producto menos vendido
+Determine los dos productos menos vendidos
 Determine la cantidad de productos vendidos por trabajador
 
 
@@ -360,10 +360,18 @@ data = [[20,      22,     30,      2,        40,        20,      3  ],
 dataArray = np.array(data)
 print(dataArray)
 
+print("---------------")
+print("Media por trabajador: ", dataArray.mean(axis=1))
+print("Media por producto:", dataArray.mean(axis=0))
+print("Producto menos vendido: ", "resolver estudiante")
+print("Cantidad por trabajador", dataArray.sum(axis=1))
 
 
+filas, columnas = np.where(dataArray == 16)
+eureka = list(zip(filas, columnas))
+print(eureka)
 
 
+"""Ejemplo: como guardar un arreglo en el disco duro"""
 
-
-
+np.savetxt('ventasTrabajadores.csv', dataArray)
