@@ -230,6 +230,22 @@ columna3 = matriz2[:,2]  #Extra toda la fila
 print(matriz2)
 print(fila2, columna3)
 
+"""Ejemplo: Extraer la seccion  4 5   a partir de la matriz 2 
+                                7 8   
+ """
+
+seccion = matriz2[1:,0:2]
+print("Seccion: \n", seccion)
+
+
+
+"""
+
+
+
+
+"""
+
 
 
 
