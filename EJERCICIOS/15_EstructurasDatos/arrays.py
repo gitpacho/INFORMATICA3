@@ -291,3 +291,42 @@ print(matriz2.max())       #total
 
 
 
+"""
+Ejemplo:  
+Determine la media de productos vendidos por trabajador
+Determine la cantidad vendida por cada producto
+Determine el producto menos vendido
+Determine la cantidad de productos vendidos por trabajador
+
+
+
+                |                     UNIDADES VENDIDAS        
+CODIGO_EMPLEADO |  zapatos tenis camisas corbatas pantalones blusas vestidos 
+     001        |    20      22     30      2        40        20      3    
+     002        |    31      14     32      15       13        20      11   
+     010        |    24      32     40      9        12        50      13   
+     020        |    42      12     33      24       22        32      23   
+     021        |    51      21     25      10       19        14      2    
+     022        |    22      31     51      21       35        15      11   
+     023        |    21      36     22      32       39        32      15   
+     024        |    22      33     41      21       43        31      36   
+     025        |    33      31     20      42       33        42      35   
+     031        |    22      47     5       28       37        31      32   
+     032        |    24      38     33      21       41        31      16   
+     033        |    21      18     32      37       39        22      12   
+     041        |    33      31     21      21       33        39      25   
+     042        |    25      39     20      48       15        30      32   
+     043        |    27      32     29      28       37        35      16   
+     121        |    24      12     31      21       39        32      13   
+     122        |    31      31     50      22       13        30      21   
+     123        |    23      35     35      39       31        19      19   
+     351        |    26      36     39      27       35        32      16   
+     352        |    25      31     21      21       25        37      15   
+     353        |    23      34     35      32       37        20      49   
+     368        |    31      14     29      39       25        37      16   
+     369        |    26      31     31      27       37        32      41   
+     461        |    40      42     23      11       21        15      19   
+     466        |    27      31     39      21       31        32      25   
+     469        |    38      32     19      29       35        50      16
+
+"""
