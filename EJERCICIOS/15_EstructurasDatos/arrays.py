@@ -271,13 +271,23 @@ print("medias => ",vector1.mean(), vector2.mean())
 
 print(matriz2) 
 print(matriz2.mean())        # media de todos los valores
-print(matriz2.mean(axis=0))  # axis 0 es por columna,
-print(matriz2.mean(axis=1))  # axis 1 es por fila
+print(matriz2.mean(axis=0))  # axis 0 es por columnas,
+print(matriz2.mean(axis=1))  # axis 1 es por filas
 
 """
-Ejemplo: determinar la desviacion estandar por fila, columna, total => std
-         determinar el maximo por fila, columna, total => max
-         determinar el maximo por fila, columna, total => min
+Ejemplo: determinar la desviacion estandar por filas, columnas, total => std
+         determinar el maximo por filas, columnas, total => max
+         determinar el minimo por filas, columnas, total => min
 """
+
+print(matriz2.std(axis=0)) #por columnas
+print(matriz2.std(axis=1)) #por filas
+print(matriz2.std())       #total
+
+print(matriz2)
+print(matriz2.max(axis=0)) #por columnas
+print(matriz2.max(axis=1)) #por filas
+print(matriz2.max())       #total
+
 
 
