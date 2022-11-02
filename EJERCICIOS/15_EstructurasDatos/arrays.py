@@ -144,6 +144,8 @@ print(matrizLarga)
         e) ¿Cómo apilar una matriz y un vector? (formar una matriz más larga o más ancha)
 
         matriz =  1 2 3      vector = 10 20 30
+            
+            
                   4 5 6                            
                   7 8 9                            
 
@@ -165,3 +167,68 @@ print("=>", matrizResultante1)
 
 matrizResultante2 = np.hstack((matriz, vector.reshape((3,1))))
 print("=>", matrizResultante2)
+
+
+# 02-11-2022
+
+
+#-------------Indexado y slicing de arreglos numpy -----------------
+
+#  vector [#columna]
+#  matriz [#fila, #columna]
+#  tensor [#profundidad, #fila, #columna]
+
+
+"""
+                     => vector1 = 1,2,3,4,5
+                     => vector2 = 10,20,30,40,50
+
+                     => matriz1 = [1 1 1
+                                1 1 1
+                                1 1 1]
+                     => matriz2 = [1 2 3
+                                4 5 6
+                                7 8 9]
+
+                     => tensor1=[[0 0 0
+                                0 0 0
+                                0 0 0]
+                                [2 2 2
+                                2 2 2
+                                2 2 2]] 
+
+                     => tensor2= [[1  2  3
+                                4  5  6
+                                7  8  9]
+                                [10 11 12
+                                13 14 15
+                                16 17 18]] 
+"""
+
+"Ejemplo: Acceder a los valores en 3 columnas distintas de vector1"
+
+value1 = vector1[0] 
+value2 = vector1[2]
+value3 = vector1[-1]
+print(value1, value2, value3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
