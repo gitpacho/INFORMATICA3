@@ -294,7 +294,7 @@ print(matriz2.max())       #total
 """
 Ejemplo:  
 Determine la media de productos vendidos por trabajador
-Determine la cantidad vendida por cada producto
+Determine la media por cada producto
 Determine el producto menos vendido
 Determine la cantidad de productos vendidos por trabajador
 
