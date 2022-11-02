@@ -263,7 +263,17 @@ print(matrizApilada)
 """ Ejemplo: calcular la media de vector1 y vector2 """
 print("medias => ",vector1.mean(), vector2.mean())
 
+"""Ejemplo: calcular la media de matriz 2
+            por fila, 
+            por columna
+            total
+"""
 
-""""""
+print(matriz2) 
+print(matriz2.mean())        # media de todos los valores
+print(matriz2.mean(axis=0))  # axis 0 es por columna,
+print(matriz2.mean(axis=1))  # axis 1 es por fila
+
+
 
 
