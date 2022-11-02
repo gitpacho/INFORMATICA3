@@ -274,6 +274,10 @@ print(matriz2.mean())        # media de todos los valores
 print(matriz2.mean(axis=0))  # axis 0 es por columna,
 print(matriz2.mean(axis=1))  # axis 1 es por fila
 
-
+"""
+Ejemplo: determinar la desviacion estandar por fila, columna, total => std
+         determinar el maximo por fila, columna, total => max
+         determinar el maximo por fila, columna, total => min
+"""
 
 
