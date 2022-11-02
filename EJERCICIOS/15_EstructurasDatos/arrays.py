@@ -240,10 +240,15 @@ print("Seccion: \n", seccion)
 
 
 """
+Cree la siguiente matriz y el siguiente vector
+matriz = 1  2  3  4  5
+         6  7  8  9  10
+         11 12 13 14 15
+vector = 1 2 3
 
-
-
-
+Apile el vector a la matriz
+y luego extraiga una seccion compuesta
+por la fila 2 (indice 1) y fila 3 (indice 2)
 """
 
 
