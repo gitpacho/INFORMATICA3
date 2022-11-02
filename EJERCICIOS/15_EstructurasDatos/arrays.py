@@ -205,12 +205,22 @@ print("=>", matrizResultante2)
                                 16 17 18]] 
 """
 
-"Ejemplo: Acceder a los valores en 3 columnas distintas de vector1"
+"Ejemplo: Acceder al valores en 3 columnas distintas de vector1"
 
+print("-------------indexado------------- \n\n")
 value1 = vector1[0] 
 value2 = vector1[2]
 value3 = vector1[-1]
 print(value1, value2, value3)
+
+"Ejemplo: Acceder al valor ubicado en la fila 1, columna 3 de matriz2"
+"         Acceder al valor ubicado en la mitad de  matriz2"
+
+value1 = matriz2[0,2]
+print(matriz2, value1)
+value2 = matriz2[1,2]
+print(matriz2, value2)
+
 
 
 
