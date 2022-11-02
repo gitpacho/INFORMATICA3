@@ -374,4 +374,6 @@ print(eureka)
 
 """Ejemplo: como guardar un arreglo en el disco duro"""
 
-np.savetxt('ventasTrabajadores.csv', dataArray)
+
+np.savetxt('EJERCICIOS/15_EstructurasDatos/ventasTrabajadores.csv', dataArray) #almacenar en un archivo
+data = np.loadtxt('ventasTrabajadores.csv') #Leer desde un archivo
