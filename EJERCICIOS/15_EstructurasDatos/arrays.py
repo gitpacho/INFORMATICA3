@@ -221,6 +221,14 @@ print(matriz2, value1)
 value2 = matriz2[1,2]
 print(matriz2, value2)
 
+"Ejemplo: Acceder a toda la fila 2 de matriz 2"
+"         Acceder a toda la columna 3 de matriz 2"
+
+fila2 = matriz2[1,:]  #Extrae toda la fila
+columna3 = matriz2[:,2]  #Extra toda la fila
+
+print(matriz2)
+print(fila2, columna3)
 
 
 
