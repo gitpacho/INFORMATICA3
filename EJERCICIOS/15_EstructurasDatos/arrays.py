@@ -1,4 +1,4 @@
-#####################################################################
+# 28-10-2022
 """ Ejemplo: Crear los siguientes vectores, matrices y tensores. (Para ello utilice arreglos de numpy)
 
                      => vector1 = 1,2,3,4,5
@@ -168,44 +168,19 @@ print("=>", matrizResultante1)
 matrizResultante2 = np.hstack((matriz, vector.reshape((3,1))))
 print("=>", matrizResultante2)
 
-
-# 02-11-2022
-
+##################################################
+#------------ 02-11-2022 -------------------------
 
 #-------------Indexado y slicing de arreglos numpy -----------------
+""" 
+El indexado, de la misma manera que el indexado de listas,
+pero también se pueden incluir más ejes.
+ => vector[#columna]
+ => matriz[#fila, #columna]
+ => tensor[#profundidad, #fila, #columna]
+ """
 
-#  vector [#columna]
-#  matriz [#fila, #columna]
-#  tensor [#profundidad, #fila, #columna]
-
-
-"""
-                     => vector1 = 1,2,3,4,5
-                     => vector2 = 10,20,30,40,50
-
-                     => matriz1 = [1 1 1
-                                1 1 1
-                                1 1 1]
-                     => matriz2 = [1 2 3
-                                4 5 6
-                                7 8 9]
-
-                     => tensor1=[[0 0 0
-                                0 0 0
-                                0 0 0]
-                                [2 2 2
-                                2 2 2
-                                2 2 2]] 
-
-                     => tensor2= [[1  2  3
-                                4  5  6
-                                7  8  9]
-                                [10 11 12
-                                13 14 15
-                                16 17 18]] 
-"""
-
-"Ejemplo: Acceder al valores en 3 columnas distintas de vector1"
+"Ejemplo: Acceder a valores en 3 columnas distintas de vector1"
 
 print("-------------indexado------------- \n\n")
 value1 = vector1[0] 
@@ -213,19 +188,19 @@ value2 = vector1[2]
 value3 = vector1[-1]
 print(value1, value2, value3)
 
-"Ejemplo: Acceder al valor ubicado en la fila 1, columna 3 de matriz2"
+"Ejemplo: Acceder al valor ubicado en la fila 1 (indice 0), columna 3 (indice 2) de matriz2"
 "         Acceder al valor ubicado en la mitad de  matriz2"
 
 value1 = matriz2[0,2]
 print(matriz2, value1)
-value2 = matriz2[1,2]
+value2 = matriz2[1,1]
 print(matriz2, value2)
 
-"Ejemplo: Acceder a toda la fila 2 de matriz 2"
-"         Acceder a toda la columna 3 de matriz 2"
+"Ejemplo: Acceder a toda la fila 2 (indice 1) de matriz 2"
+"         Acceder a toda la columna 3 (indice 2) de matriz 2"
 
 fila2 = matriz2[1,:]  #Extrae toda la fila
-columna3 = matriz2[:,2]  #Extra toda la fila
+columna3 = matriz2[:,2]  #Extrae toda la columna
 
 print(matriz2)
 print(fila2, columna3)
@@ -256,9 +231,10 @@ vector =  np.array([1,2,3]).reshape(3,1)
 print(matriz, "\n",vector)
 matrizApilada = np.hstack((matriz, vector))
 print(matrizApilada)
+#Realizar extraer seccion 
 
 
-#-------------- funciones estadísticas mean, std, min, max -------------
+#-------------- Métodos estadísticos mean, std, min, max -------------
 
 """ Ejemplo: calcular la media de vector1 y vector2 """
 print("medias => ",vector1.mean(), vector2.mean())
@@ -293,8 +269,8 @@ print(matriz2.max())       #total
 
 """
 Ejemplo:  
-Determine la media de productos vendidos por trabajador
-Determine la media por cada producto
+Determine la media para cada trabajador
+Determine la media para cada producto
 Determine los dos productos menos vendidos
 Determine la cantidad de productos vendidos por trabajador
 
@@ -363,17 +339,11 @@ print(dataArray)
 print("---------------")
 print("Media por trabajador: ", dataArray.mean(axis=1))
 print("Media por producto:", dataArray.mean(axis=0))
-print("Producto menos vendido: ", "resolver estudiante")
+print("Productos menos vendidos: ", "resolver estudiante")
 print("Cantidad por trabajador", dataArray.sum(axis=1))
-
-
-filas, columnas = np.where(dataArray == 16)
-eureka = list(zip(filas, columnas))
-print(eureka)
 
 
 """Ejemplo: como guardar un arreglo en el disco duro"""
 
-
 np.savetxt('EJERCICIOS/15_EstructurasDatos/ventasTrabajadores.csv', dataArray) #almacenar en un archivo
-data = np.loadtxt('ventasTrabajadores.csv') #Leer desde un archivo
+data = np.loadtxt('EJERCICIOS/15_EstructurasDatos/ventasTrabajadores.csv') #Leer desde un archivo

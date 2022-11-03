@@ -1,0 +1,57 @@
+#02-11-2022
+
+---------------------Arrays---------------------
+
+Los arrays de numpy son estructuras que dan soporte a los iterables de python.
+Poseen mayor cantidad funcionalidades, están optimizadas y son de gran
+utilidad para el calculo numerico. Mediante los arreglos, es posible crear 
+vectores, matrices y tensores de manera eficiente
+
+Numpy posee muchas herramientas, entre ellas tenemos:
+
+1) Funciones integradas de numpy
+
+    * Creacion de arreglos => 
+              np.array(<iterable>)
+              np.arange(<inicio>,<fin>,<salto>)
+              np.ones((<filas>,<columnas>))
+              np.zeros(<filas>, <columnas>)
+    * Redimensionamiento =>
+              np.reshape((<filas>, <columnas>))
+    * Apilamiento =>
+              np.hstack((<elemento1>, <elemento2>))
+              np.hstack((<elemento1>, <elemento2>))
+    * Indexado y slicing =>
+              vector[<columna>]
+              matriz[<fila>,<columna>]
+              tensor[<profundidad>,<fila>,<columna>]
+    * Almacenamiento =>
+              np.savetxt("ruta", <arreglo>)
+              np.loadtxt("ruta")
+
+2) Métodos en numpy
+
+    * Valor minimo =>
+            arreglo.min()   
+    * Valor máximo =>
+            arreglo.max()   
+    * Promedio =>
+            arreglo.mean()  
+    * Desviacion estandar =>
+            arreglo.std()   
+    * Suma del arreglo =>
+            arreglo.sum()
+
+
+3) Otras funciones matematicas:
+    np.sin(<arreglo>)          #trigonometricas
+    np.cos(<arreglo>)          #trigonometricas
+    np.exp(<arreglo>)          #trigonometricas
+    np.log(<arreglo>)          #Logaritmo
+    np.gcd(<arreglo>)          #Maximo comun divisor
+    np.lcm(<arreglo>)          #Minimo comun multiplo
+    np.dot((<arreglo1>, <arreglo2>)) #Producto punto
+    np.linalg.det(<arreglo>)   #Determinante
+    np.linalg.inv(<arreglo>)   #Inversa
+    np.linalg.norm(<arreglo>)  #Norma
+    np.linalg.solve(<a>, <b>)  #Resolver sistema de ecuaciones

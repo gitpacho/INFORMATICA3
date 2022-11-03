@@ -26,7 +26,6 @@ pandas:| series => vectores (solo 1D)
 
 
 
-La estructura básica para trabajar estas estructuras (arrays, series y dataFrames)
-son los mismos arrays, por lo tanto deben entenderse muy bien para poder trabajar
-las demas estructuras (series y dataframes)
+La estructura básica para trabajar son los arrays, por lo tanto deben entenderse
+muy bien para poder utilizar las otras estructuras series y dataframes
 
