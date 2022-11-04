@@ -49,4 +49,19 @@ print(serieDeportistas)
 
 
 
+"""
+Imprimir los indices, datos 
+del arreglo serieVentas utilizando sus atributos
+"""
+
+print(serieVentas)
+print("indices => ", serieVentas.index)
+print("data =>", serieVentas.values)
+print("tamaño =>", serieVentas.shape)
+
+
+
+
+
+
 

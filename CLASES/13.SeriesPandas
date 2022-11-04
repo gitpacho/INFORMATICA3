@@ -27,7 +27,7 @@ ATRIBUTOS =>
      serie.shape  : retorna el tamaño
 
 METODOS =>
-     serie.describe()
+     serie.describe()  : 
      serie.mean()
      serie.std() 
      serie.min()
