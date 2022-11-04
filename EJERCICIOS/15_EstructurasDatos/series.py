@@ -120,13 +120,10 @@ b) Calcular de serie serieVentasProductos lo siguiente:
                 *mediana
                 *desviacion
                 *frecuencias
+c) Determine cual es el producto mas costoso y el menos costoso 
 
-c) Calcular el dinero recaudado por producto
+c) Calcular el dinero recaudado por producto 
 """
-
-
-
-
 
 
 
