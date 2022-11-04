@@ -19,4 +19,33 @@ serie = pd.Series(data = <arregloNumpy>, index = [....])
 serie = pd.Series(data = np.Array([5,4,3.5]),  index = ["Estu 1", "Estu 2", "Estu 3"])
 
 
+------ Herramientas de una serie ------------------
+ 
+ATRIBUTOS =>
+     serie.index  : retorna los indices clave
+     serie.values : retora la data
+     serie.shape  : retorna el tamaño
+
+METODOS =>
+     serie.describe()
+     serie.mean()
+     serie.std() 
+     serie.min()
+     serie.max()
+     serie.idxmin()
+     serie.idxmax()
+     serie.value_counts()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
