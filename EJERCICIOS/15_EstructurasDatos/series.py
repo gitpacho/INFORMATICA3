@@ -74,6 +74,16 @@ print("estadisticos=>", media, desviacion, min, max)
 
 
 """
-Imprimir el codigo del producto menos vendido, y el codigo del producto mas vendido
+Imprimir el codigo del producto menos vendido, y el codigo del producto mas vendido de serieVentas
 """
 
+productoMenosVendido = serieVentas.idxmin()
+productoMasVendido = serieVentas.idxmax()
+
+print("productos => ", productoMenosVendido, productoMasVendido)
+
+
+"""
+Acceder mediante indexado a 3 valores de la serieDeportistas 
+utilizando el indice numerico y el indice clave
+"""

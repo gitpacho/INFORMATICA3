@@ -37,6 +37,21 @@ METODOS =>
      serie.value_counts() : devuelve las frecuencias de la serie
 
 
+ INDEXADO =>
+    Las series se pueden indexar utilizando el indice numerico o el indice clave
+    serie[0]
+    serie["Enero"]
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
