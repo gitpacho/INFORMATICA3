@@ -87,3 +87,41 @@ print("productos => ", productoMenosVendido, productoMasVendido)
 Acceder mediante indexado a 3 valores de la serieDeportistas 
 utilizando el indice numerico y el indice clave
 """
+
+print(serieDeportistas[0], serieDeportistas[-1], serieDeportistas[3])
+print(serieDeportistas["001"], serieDeportistas["100"], serieDeportistas["004"])
+
+
+"""
+El precio de venta de los artículos de una empresa es el siguiente:
+       Producto            Precio unitario
+         A001                 $ 31 000
+         A011                 $ 25 000
+         A032                 $ 43 000
+         A125                 $ 55 000
+         B001                 $ 10 000
+         B005                 $ 20 000
+         P009                 $ 30 000
+         P019                 $ 49 000
+         R001                 $ 60 000
+         W307                 $ 90 000
+         Z052                 $ 35 000
+         Z025                 $ 27 000
+         Z278                 $ 65 000
+Las ventas a lo largo de un día se ha registrado en la siguiente lista:
+ventas = ["A032-52Unidades", "B001-29Unidades", "A125-15Unidades", "A032-22Unidades", "P009-25Unidades", "B005-20Unidades", "B001-19Unidades", "P009-31Unidades", "B005-22Unidades", "W307-15Unidades", "A011-31Unidades", "P019-18Unidades", "A011-20Unidades", "R001-20Unidades", "P019-19Unidades", "A001-12Unidades", "A125-20Unidades", "R001-31Unidades", "Z052-52Unidades", "W307-31Unidades", "Z025-42Unidades", "Z052-10Unidades", "Z278-30Unidades", "Z025-24Unidades", "Z278-21Unidades", "A001-31unidades","A032-32Unidades","B001-22Unidades","A125-11Unidades","A032-12Unidades","P009-19Unidades","B005-11Unidades","B001-19Unidades","P009-21Unidades","B005-22Unidades","W307-15Unidades","A011-31Unidades","P019-18Unidades","A011-20Unidades","R001-20Unidades","P019-19Unidades","A001-12Unidades","A125-20Unidades","R001-31Unidades","Z052-12Unidades","W307-31Unidades","Z025-42Unidades","Z052-10Unidades","Z278-30Unidades","Z025-24Unidades","Z278-11Unidades","A001-91unidades"]
+
+
+a) Crear 2 series => seriePrecioProductos (con claves y precios)
+                  => serieVentasProductos (con claves y unidades vendidas)
+
+b)
+"""
+
+
+
+
+
+
+
+
