@@ -50,8 +50,7 @@ print(serieDeportistas)
 
 
 """
-Imprimir los indices, datos 
-del arreglo serieVentas utilizando sus atributos
+Imprimir los indices, data y tamaño de la serieVentas utilizando sus atributos
 """
 
 print(serieVentas)
@@ -66,9 +65,15 @@ Imprimir la media, desviacion, el minimo y el maximo de la serieCalificaciones
 """
 
 
+media = serieCalificaciones.mean()
+desviacion = serieCalificaciones.std()
+min = serieCalificaciones.min()
+max = serieCalificaciones.max()
+
+print("estadisticos=>", media, desviacion, min, max)
 
 
-
-
-
+"""
+Imprimir el codigo del producto menos vendido, y el codigo del producto mas vendido
+"""
 
