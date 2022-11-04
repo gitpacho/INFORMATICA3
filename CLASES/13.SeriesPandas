@@ -27,14 +27,14 @@ ATRIBUTOS =>
      serie.shape  : retorna el tamaño
 
 METODOS =>
-     serie.describe()  : 
-     serie.mean()
-     serie.std() 
-     serie.min()
-     serie.max()
-     serie.idxmin()
-     serie.idxmax()
-     serie.value_counts()
+     serie.describe()     : devuelve otra serie, describiendo la serie original
+     serie.mean()         : devuelve la media
+     serie.std()          : devuelve la desviacion estandar
+     serie.min()          : devuelve el valor minimo
+     serie.max()          : devuelve el valor maximo
+     serie.idxmin()       : devuelve la clave del minimo
+     serie.idxmax()       : devuelve la clave del maximo
+     serie.value_counts() : devuelve las frecuencias de la serie
 
 
 
