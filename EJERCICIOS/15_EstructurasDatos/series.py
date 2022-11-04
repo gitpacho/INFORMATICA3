@@ -112,10 +112,16 @@ Las ventas a lo largo de un día se ha registrado en la siguiente lista:
 ventas = ["A032-52Unidades", "B001-29Unidades", "A125-15Unidades", "A032-22Unidades", "P009-25Unidades", "B005-20Unidades", "B001-19Unidades", "P009-31Unidades", "B005-22Unidades", "W307-15Unidades", "A011-31Unidades", "P019-18Unidades", "A011-20Unidades", "R001-20Unidades", "P019-19Unidades", "A001-12Unidades", "A125-20Unidades", "R001-31Unidades", "Z052-52Unidades", "W307-31Unidades", "Z025-42Unidades", "Z052-10Unidades", "Z278-30Unidades", "Z025-24Unidades", "Z278-21Unidades", "A001-31unidades","A032-32Unidades","B001-22Unidades","A125-11Unidades","A032-12Unidades","P009-19Unidades","B005-11Unidades","B001-19Unidades","P009-21Unidades","B005-22Unidades","W307-15Unidades","A011-31Unidades","P019-18Unidades","A011-20Unidades","R001-20Unidades","P019-19Unidades","A001-12Unidades","A125-20Unidades","R001-31Unidades","Z052-12Unidades","W307-31Unidades","Z025-42Unidades","Z052-10Unidades","Z278-30Unidades","Z025-24Unidades","Z278-11Unidades","A001-91unidades"]
 
 
-a) Crear 2 series => seriePrecioProductos (con claves y precios)
-                  => serieVentasProductos (con claves y unidades vendidas)
+a) Crear 2 series => seriePrecioProductos (con codigos (str) y precios (int))
+                  => serieVentasProductos (con codigos (str) y unidades vendidas(int))
 
-b)
+b) Calcular de serie serieVentasProductos lo siguiente:
+                *media
+                *mediana
+                *desviacion
+                *frecuencias
+
+c) Calcular el dinero recaudado por producto
 """
 
 
