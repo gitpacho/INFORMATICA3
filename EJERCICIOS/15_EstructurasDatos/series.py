@@ -30,11 +30,16 @@ Crear las siguientes series
 import pandas as pd
 import numpy as np
 
-data =np.array([22, 3,  21, 10, 15, 18, 14, 13, 22, 12, 98, 32, 51, 45, 60])
 index = ["001", "002", "003", "004", "005", "006", "007", "008", "009", "010", "011", "012", "013", "014", "015"]
+data =np.array([22, 3,  21, 10, 15, 18, 14, 13, 22, 12, 98, 32, 51, 45, 60])
 serieVentas = pd.Series(data = data, index=index)
+print(serieVentas)
 
 
+index = ["Miguel Pineda","Maria Gonzalez","Jose Nuñez","Angelica Lozano","Camilo Suarez","Mariana Rosero","Esteban Quesada","Julia Quintero","Mauricio Lizcano","Angie Gomez","Camilo Restrepo","Mauricio Velazquez","Esteban Rodriguez"]
+data = [1.0,3.1,5.0,3.1,3.2,5.0,3.4,2.0,3.7,4.1,5.0,5.0,3.2]
+serieCalificaciones = pd.Series(data=data, index=index)
+print(serieCalificaciones)
 
 
 
