@@ -1,0 +1,22 @@
+04-11-2022
+
+
+----------- Series -----------------
+
+Es una estructura unidimensional eficiente.
+Se construye sobre un arreglo numpy.
+Está compuesto por indices numericos => 0,1,2,3...
+                   indices claves    => "Enero", "Febrero",...
+
+Además se pueden indexar, opcionalmente utilizando ya sea indices numericos o 
+indices claves
+
+------¿Cómo crear una serie?-----------
+
+import pandas as pd
+
+serie = pd.Series(data = <arregloNumpy>, index = [....])
+serie = pd.Series(data = np.Array([5,4,3.5]),  index = ["Estu 1", "Estu 2", "Estu 3"])
+
+
+
