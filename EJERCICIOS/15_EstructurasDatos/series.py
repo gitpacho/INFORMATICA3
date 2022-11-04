@@ -61,6 +61,13 @@ print("tamaño =>", serieVentas.shape)
 
 
 
+"""
+Imprimir la media, desviacion, el minimo y el maximo de la serieCalificaciones
+"""
+
+
+
+
 
 
 
