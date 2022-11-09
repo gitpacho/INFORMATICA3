@@ -53,13 +53,19 @@ f5(x) = x*sinx + random
 200 |  605  | 200.2|   .  |   .   |  .
 """
 
+x = np.arange(0,200.5, 0.5)
+f1 = 3 * x + 5
+f2 = x + np.random.rand(401)
+f3 = np.sin(x)
+f4 = np.log(x)
+f5 = x * np.sin(x) + np.random.rand(401)
+
+print("f1 =>", f1[0:10])
+print("f2 =>", f2[0:10])
+print("f3 =>", f3[0:10])
+print("f4 =>", f4[0:10])
+print("f5 =>", f5[0:10])
 
 hoja2 = pd.DataFrame(data=np.empty((401, 5)),
                      columns=["f1","f2","f3","f4","f5"],
                      index = np.arange(0,200.5,0.5))
-
-print(hoja2)
-
-
-
-
