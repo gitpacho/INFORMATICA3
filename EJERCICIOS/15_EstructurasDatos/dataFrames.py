@@ -79,11 +79,11 @@ Ejercicio: Determinar las medias, medianas, desviaciones estandar, minimos y max
 por filas y por columnas
 """
 
-medias = hoja2.mean(axis="columns")
-medianas = hoja2.median(axis="columns")
-desviaciones = hoja2.std(axis="columns")
-minimos = hoja2.min(axis="columns")
-maximos = hoja2.max(axis="columns")
+medias = hoja2.mean(axis=0)
+medianas = hoja2.median(axis=0)
+desviaciones = hoja2.std(axis=0)
+minimos = hoja2.min(axis=0)
+maximos = hoja2.max(axis=0)
 
 print(hoja2)
 print("-----------------------")
