@@ -43,5 +43,12 @@ hoja1 = pd.DataFrame( data = data,
 
 
 
+------------- metodos de interes ---------------
+
+    .mean(axis)
+    .median(axis)
+    .std(axis)
+    .min(axis)
+    .max(axis)
 
 

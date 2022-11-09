@@ -72,3 +72,20 @@ hoja2 = pd.DataFrame(data=data,
                      index = np.arange(0,200.5,0.5))
 
 print(hoja2)
+
+
+"""
+Ejercicio: Determinar las medias, medianas, desviaciones estandar, minimos y maximos
+por filas y por columnas
+"""
+
+medias = hoja2.mean(axis="columns")
+medianas = hoja2.median(axis="columns")
+desviaciones = hoja2.std(axis="columns")
+minimos = hoja2.min(axis="columns")
+maximos = hoja2.max(axis="columns")
+
+print(hoja2)
+print("-----------------------")
+print("minimos =>", minimos)
+print("maximos =>", maximos)
