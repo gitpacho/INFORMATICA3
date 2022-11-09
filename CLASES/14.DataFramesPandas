@@ -1,0 +1,47 @@
+#09-11-2022
+
+
+------------------DATA FRAMES ------------------------
+
+Son estructuras de datos en 2-D. (Filas y columnas)
+De manera semejante a los archivos excel, sql, csv
+
+    * funcionan como las hojas de excel
+    * Para indexar trabajan igual como en las listas y diccionarios. Indexado por indice numerico o por indice clave
+
+
+----------¿cómo crear un DataFrame de pandas?---------------------
+
+import pandas as pd
+
+hoja1 = pd.DataFrames(data = <arreglo 2D numpy>, 
+                      columns = ["columna1", ...., "columnaN"],
+                      index = ["fila1",..., "filaN" ])
+
+
+crear un dataFrame compuesto por la siguiente informacion =>
+
+codigo   tamaño   precio  
+  001      1       12000   
+  002      2       15000 
+  003      3       21000
+  004      2       32000
+  005      1       11000
+  006      2       90000
+
+data = np.Array([[1, 12000],   
+                 [2, 15000], 
+                 [3, 21000],
+                 [2, 32000],
+                 [1, 11000],
+                 [2, 90000]])
+
+hoja1 = pd.DataFrame( data = data,
+                      columns = ["tamaño", "precio"],
+                      index = ["001","002","003","004","005","006"])
+
+
+
+
+
+
