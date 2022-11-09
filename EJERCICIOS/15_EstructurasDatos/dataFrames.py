@@ -57,15 +57,18 @@ x = np.arange(0,200.5, 0.5)
 f1 = 3 * x + 5
 f2 = x + np.random.rand(401)
 f3 = np.sin(x)
-f4 = np.log(x)
+f4 = np.exp(x)
 f5 = x * np.sin(x) + np.random.rand(401)
 
-print("f1 =>", f1[0:5])
-print("f2 =>", f2[0:5])
-print("f3 =>", f3[0:5])
-print("f4 =>", f4[0:5])
-print("f5 =>", f5[0:5])
+f1 = f1.reshape((401,1))
+f2 = f2.reshape((401,1))
+f3 = f3.reshape((401,1))
+f4 = f4.reshape((401,1))
+f5 = f5.reshape((401,1))
+data = np.hstack((f1,f2,f3,f4,f5))
 
-hoja2 = pd.DataFrame(data=np.empty((401, 5)),
+hoja2 = pd.DataFrame(data=data,
                      columns=["f1","f2","f3","f4","f5"],
                      index = np.arange(0,200.5,0.5))
+
+print(hoja2)
