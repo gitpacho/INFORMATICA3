@@ -52,3 +52,14 @@ f5(x) = x*sinx + random
 .   |  .    | .    |   .  |   .   |  .
 200 |  605  | 200.2|   .  |   .   |  .
 """
+
+
+hoja2 = pd.DataFrame(data=np.empty((401, 5)),
+                     columns=["f1","f2","f3","f4","f5"],
+                     index = np.arange(0,200.5,0.5))
+
+print(hoja2)
+
+
+
+
