@@ -116,7 +116,10 @@ Ejemplo: Acceder a toda la columna col3
 """
 
 columna = hoja3["col3"]
-fila = hoja3.index["Alex"]
+fila = hoja3.loc["Alex"]
+
+print("columna =>\n", columna)
+print("fila=>\n", fila)
 
 
 
