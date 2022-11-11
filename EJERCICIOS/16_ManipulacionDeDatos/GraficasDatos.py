@@ -21,7 +21,25 @@ hoja1 = pd.DataFrame(data= data,
                      columns= ["F1", "F2", "F3"]
 )
 
-print(hoja1)
+
+import matplotlib.pyplot as plt
+
+"""
+Graficar F1(x), F2(x), F2(x)
+"""
+
+def graficaGenerica(x, y, marca):
+    plt.figure()  #Para crear lienzo vacio
+    plt.plot(x, y, marca)
+    plt.show()    #Para mostrar la figura
+
+x = hoja1.index
+y = 
+
+
+
+
+
 
 
 
