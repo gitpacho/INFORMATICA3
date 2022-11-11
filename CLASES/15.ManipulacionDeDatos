@@ -1,0 +1,32 @@
+#11-11-2022
+
+----------Manipulacion de datos--------------
+
+=> Para poder manipular los datos, se utilizarán herramientas presentes 
+   en los arreglos, series, dataframes ya vistos. En el proceso de conocer
+   y manipular datos es importante determinar algunos valores estadisticos 
+   que ya sabemos como calcular:
+
+         La media, mediana, desviacion, valor min/max ...
+
+=> Ademas es importante visualizar la información,
+   para ello utilizamos matplotlib de la siguiente manera:
+   
+   import matplotlib.pyplot as plt
+   plt.figure()
+   plt.plot(x, y, style)  #donde x, y contienen la data,
+   plt.show()             #style: el estilo y color de linea
+
+
+=> En el analisis de datos, la derivada y la integral son valores importante
+   para ciertos propositos, por los tanto debe calcularse de manera numerica
+
+
+
+
+#------- Metodo numerico para calcular derivadas---------------
+
+  Se hace uso de su significado geometrico.
+  Una derivada es una pendiente de una funcion
+
+        f'(x) = (y2-y1) / (x2 -x1)
