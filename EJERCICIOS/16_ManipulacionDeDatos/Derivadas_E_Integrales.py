@@ -5,8 +5,8 @@ import numpy as np
 Utilizamos el data frame del archivo anterior
  """
 x = np.arange(0, 6.28, 0.01)
-columna1 = x * np.sin(x) + 0.2 * np.random.rand(628)
-columna2 = np.cos(x) + 0.1 * np.random.rand(628)
+columna1 = x * np.sin(x) + 0.005 * np.random.rand(628)
+columna2 = np.cos(x) + 0.005 * np.random.rand(628)
 columna3 = x * 1/2
 data = np.hstack((columna1.reshape(628,1), columna2.reshape(628,1), columna3.reshape(628,1)))
 hoja1 = pd.DataFrame(data= data,
@@ -36,17 +36,27 @@ import matplotlib.pyplot as plt
 
 def graficaGenerica(x, y, y_prima):
     plt.figure(figsize=(8,4))
-    plt.plot(x,y, "b", label="f(x)")
-    plt.plot(x[:-1],y_prima, "r", label="f'(x)")
+    plt.plot(x,y, "b", label="funcion f(x)")
+    plt.plot(x[:-1],y_prima, "r", label="derivada f '(x)")
     plt.xlabel("x")
+    plt.legend()  #para mostrar los labels f(x) y f '(x)
     plt.show()
 
 x = hoja1.index
 y = hoja1["F1"]
 y_prima = derivada1
-
-
 graficaGenerica(x, y, y_prima)
+
+x = hoja1.index
+y = hoja1["F2"]
+y_prima = derivada1
+graficaGenerica(x, y, y_prima)
+
+x = hoja1.index
+y = hoja1["F3"]
+y_prima = derivada1
+graficaGenerica(x, y, y_prima)
+
 
 
 
