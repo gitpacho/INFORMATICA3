@@ -38,7 +38,7 @@ def graficaGenerica(x, y, y_prima):
     plt.figure(figsize=(8,4))
     plt.plot(x,y, "b", label="f(x)")
     plt.plot(x[:-1],y_prima, "r", label="f'(x)")
-    plt.xlabel(x)
+    plt.xlabel("x")
     plt.show()
 
 x = hoja1.index
