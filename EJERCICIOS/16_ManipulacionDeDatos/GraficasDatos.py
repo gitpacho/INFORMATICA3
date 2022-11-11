@@ -10,12 +10,25 @@ F2(x) = cos(x) +  0.1*random(x)
 F3(x) = x + 1/2
  """
 
-hoja1 = pd.DataFrame(data= np.empty((100,3)),
+x = np.arange(0.01, 1.01, 0.01)
+columna1 = x * np.sin(x) + 0.2 * np.random.rand(100)
+columna2 = np.cos(x) + 0.1 * np.random.rand(100)
+columna3 = x * 1/2
+data = np.hstack((columna1, columna2, columna3))
+
+hoja1 = pd.DataFrame(data= data,
                      index= np.arange(0.01, 1.01, 0.01),
                      columns= ["F1", "F2", "F3"]
 )
 
-print(hoja1)
+
+
+
+
+
+
+
+
 
 
 
