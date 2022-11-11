@@ -29,34 +29,22 @@ Graficar F1(x), F2(x), F3(x)
 """
 
 def graficaGenerica(x, y, marca):
-    plt.figure()  #Para crear lienzo vacio
+    plt.figure(figsize=(8,4))  #Para crear lienzo vacio
     plt.plot(x, y, marca)
+    plt.xlabel("x")
+    plt.title("f(x) DataFrame")
+    plt.ylabel("f(x)")
+    plt.grid()
     plt.show()    #Para mostrar la figura
 
 x = hoja1.index
 y = hoja1["F1"]
-graficaGenerica(x, y, "--")
+graficaGenerica(x, y, "or")
 
 x = hoja1.index
 y = hoja1["F2"]
-graficaGenerica(x, y, "--")
+graficaGenerica(x, y, "*b")
 
 x = hoja1.index
 y = hoja1["F3"]
-graficaGenerica(x, y, "--")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+graficaGenerica(x, y, "-k")
