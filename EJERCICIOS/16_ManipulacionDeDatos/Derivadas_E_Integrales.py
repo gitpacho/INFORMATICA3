@@ -19,3 +19,11 @@ hoja1 = pd.DataFrame(data= data,
 derivada1 = np.diff(columna1)/np.diff(x)
 derivada2 = np.diff(columna2)/np.diff(x)
 derivada3 = np.diff(columna3)/np.diff(x)
+
+"""
+1) Crear una funcion generica para graficar las derivadas
+2) Crear un dataFrame que contenga los valores de las 3 derivadas en 
+                            columns = ["der1", "der2", "der3"]
+"""
+
+
