@@ -1,8 +1,10 @@
+#11-11-2022
+
 import pandas as pd
 import numpy as np
 
 """
-Utilizamos el data frame del archivo anterior
+Utilizamos un data frame parecido al del archivo anterior
  """
 x = np.arange(0, 6.28, 0.01)
 columna1 = x * np.sin(x) + 0.005 * np.random.rand(628)
@@ -31,13 +33,14 @@ derivada3 = np.diff(columna3)/np.diff(x)  #Pendientes de f2
                             columns = ["der1", "der2", "der3"]
 """
 
+#1er punto
 
 import matplotlib.pyplot as plt
-
-def graficaGenerica(x, y, y_prima):
+def graficaGenerica(x, y, y_prima, titulo):
     plt.figure(figsize=(8,4))
+    plt.title(titulo)
     plt.plot(x,y, "b", label="funcion f(x)")
-    plt.plot(x[:-1],y_prima, "r", label="derivada f '(x)")
+    plt.plot(x[:-1], y_prima, "r", label="derivada f '(x)")
     plt.xlabel("x")
     plt.legend()  #para mostrar los labels f(x) y f '(x)
     plt.show()
@@ -45,21 +48,17 @@ def graficaGenerica(x, y, y_prima):
 x = hoja1.index
 y = hoja1["F1"]
 y_prima = derivada1
-graficaGenerica(x, y, y_prima)
+graficaGenerica(x, y, y_prima, "f(x) = xsen(x)")
 
 x = hoja1.index
 y = hoja1["F2"]
 y_prima = derivada2
-graficaGenerica(x, y, y_prima)
+graficaGenerica(x, y, y_prima, "f(x) = cos(x)")
 
 x = hoja1.index
 y = hoja1["F3"]
 y_prima = derivada3
-graficaGenerica(x, y, y_prima)
+graficaGenerica(x, y, y_prima, "f(x) = x + 1/2")
 
 
-
-
-
-
-
+#2do punto => pendiente crear data frame de derivadas
