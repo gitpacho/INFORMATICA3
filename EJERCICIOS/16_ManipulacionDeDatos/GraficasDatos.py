@@ -25,7 +25,7 @@ hoja1 = pd.DataFrame(data= data,
 import matplotlib.pyplot as plt
 
 """
-Graficar F1(x), F2(x), F2(x)
+Graficar F1(x), F2(x), F3(x)
 """
 
 def graficaGenerica(x, y, marca):
@@ -34,7 +34,9 @@ def graficaGenerica(x, y, marca):
     plt.show()    #Para mostrar la figura
 
 x = hoja1.index
-y = 
+y = hoja1["F1"]
+
+graficaGenerica(x, y, "--")
 
 
 
