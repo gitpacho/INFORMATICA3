@@ -49,12 +49,12 @@ graficaGenerica(x, y, y_prima)
 
 x = hoja1.index
 y = hoja1["F2"]
-y_prima = derivada1
+y_prima = derivada2
 graficaGenerica(x, y, y_prima)
 
 x = hoja1.index
 y = hoja1["F3"]
-y_prima = derivada1
+y_prima = derivada3
 graficaGenerica(x, y, y_prima)
 
 
