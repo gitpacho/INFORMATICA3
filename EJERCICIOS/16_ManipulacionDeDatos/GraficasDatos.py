@@ -35,9 +35,15 @@ def graficaGenerica(x, y, marca):
 
 x = hoja1.index
 y = hoja1["F1"]
-
 graficaGenerica(x, y, "--")
 
+x = hoja1.index
+y = hoja1["F2"]
+graficaGenerica(x, y, "--")
+
+x = hoja1.index
+y = hoja1["F3"]
+graficaGenerica(x, y, "--")
 
 
 
