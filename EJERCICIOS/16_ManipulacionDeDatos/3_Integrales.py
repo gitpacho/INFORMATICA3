@@ -59,6 +59,12 @@ for i in range(1,4):
 plt.show()
 
 
+for i in range(0,3):
+    x = hoja1.index
+    y = hoja1.iloc[:,i]
+    integral_numerica = np.trapz(y,x)
+    print("integral f{} = ".format(i+1), integral_numerica)
+
 
 
 
