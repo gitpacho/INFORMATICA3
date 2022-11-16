@@ -62,3 +62,4 @@ graficaGenerica(x, y, y_prima, "f(x) = x + 1/2")
 
 
 #2do punto => pendiente crear data frame de derivadas
+print(hoja1)
