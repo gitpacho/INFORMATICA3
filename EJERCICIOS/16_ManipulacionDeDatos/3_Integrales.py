@@ -56,6 +56,7 @@ for i in range(1,4):
     x = hoja1.index
     y = hoja1.iloc[:,i-1]
     plt.plot(x, y)
+plt.savefig("lienzo")
 plt.show()
 
 
