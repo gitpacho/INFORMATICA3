@@ -4,8 +4,10 @@
 
 #Se resuelve utilizando el metodo del trapecio (calculando areas)
 
-"""Calcular la integral para f(x) = 2x², en los limites x = [0,5]
-La integral debe dar (2/3)x³ [x=0,x=5] = 83.33333333333333
+"""
+    Ejercicio: 
+    Calcular la integral para f(x) = 2x², en los limites x = [0,5]
+    La integral debe dar (2/3)x³ [x=0,x=5] = 83.33333333333333
 """
 
 import numpy as np
@@ -31,7 +33,10 @@ graficaGenerica(x,y)
 
 
 """
-calcular las integrales de f1, f2 y f3 del dataFrame hoja1
+Ejercicio:  
+ a) graficar f1,f2,f3 en un mismo lienzo
+ b) calcular las integrales de f1, f2 y f3 del dataFrame hoja1
+
 """
 x = np.arange(0, 6.28, 0.01)
 columna1 = x * np.sin(x) + 0.005 * np.random.rand(628)
