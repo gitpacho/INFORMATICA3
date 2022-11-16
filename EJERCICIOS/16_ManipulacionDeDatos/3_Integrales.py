@@ -28,7 +28,7 @@ integral_numerica = np.trapz(y,x)
 print("teorico = 83.33333333333333")
 print("numerico=", integral_numerica)
 
-graficaGenerica(x,y)
+#graficaGenerica(x,y)
 
 
 
@@ -38,6 +38,7 @@ Ejercicio:
  b) calcular las integrales de f1, f2 y f3 del dataFrame hoja1
 
 """
+import pandas as pd
 x = np.arange(0, 6.28, 0.01)
 columna1 = x * np.sin(x) + 0.005 * np.random.rand(628)
 columna2 = np.cos(x) + 0.005 * np.random.rand(628)
@@ -47,10 +48,15 @@ hoja1 = pd.DataFrame(data= data,
                      index= x,
                      columns= ["f1", "f2", "f3"])
 
+print(hoja1)
 
-
-
-
+plt.figure(figsize=(12,4))
+for i in range(1,4):
+    plt.subplot(1,3, i)
+    x = hoja1.index
+    y = hoja1.iloc[:,i-1]
+    plt.plot(x, y)
+plt.show()
 
 
 
