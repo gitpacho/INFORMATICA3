@@ -1,11 +1,11 @@
 nombre_completo = ""   #Por favor ingrese su nombre COMPLETO en la cadena
 
-# ----------------------------Ejercicios INFORME 2--------------------------------
+# ----------------------------Ejercicios INFORME 3--------------------------------
 """
 Recomendaciones:
  - Recuerde almacenar las respuestas tal como se pide en cada ejercicio
  - Se resuelve de manera individual, la copia será anulada.
- - No hay necesidad de escribir las preguntas en su archivo ejercicios2.py
+ - No hay necesidad de escribir las preguntas en su archivo ejercicios3.py
  - Muestre sus procedimientos de manera clara
 """
 
