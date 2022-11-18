@@ -65,11 +65,3 @@ for i in range(0,3):
     y = hoja1.iloc[:,i]
     integral_numerica = np.trapz(y,x)
     print("integral f{} = ".format(i+1), integral_numerica)
-
-
-
-
-
-
-
-
